@@ -1,7 +1,11 @@
-<html>
+<html lang="es">
+
 <head>
     <title>Ejemplo etiquetas</title>
     <link rel="stylesheet" href="css/sitio.css" />
+    <meta charset="UTF-8">
+
+
     <style>
         td {
             font-style: italic;
@@ -34,13 +38,23 @@
             width: 40%;
             height: 150px;
             float: right;
-            border-top: 5px solid #b0150b ;
+            border-top: 5px solid #b0150b;
         }
     </style>
 </head>
 
 <body>
     <h1 style="color: #b0150b; background-color: silver;">Ejemplo <strong>asdfsdf</strong>aafasdf 1</h1>
+
+    <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Publicaciones</a></li>
+    </ul>
+
+
+
     <p>
         Lorem ipsum is placeholder text
         <strong> xafkhaksfhakfh </strong>
@@ -94,11 +108,11 @@
                 <td>data 1.2</td>
             </tr>
             <tr>
-                <td rowspan="2">data 2.1</td>
+                <td rowspan="2" class="fondo">data 2.1</td>
                 <td>
-                    <table border="1">
+                    <table border="1" class="espaciado">
                         <tr>
-                            <td>1</td>
+                            <td>1111</td>
                             <td>2</td>
                         </tr>
                         <tr>
@@ -115,12 +129,24 @@
     </table>
 
     <div id="container">
-
         <div id="izquierda">
         </div>
         <div id="derecha">
         </div>
     </div>
+
+    <p>
+        El elemento de cita
+        <q cite="https://developer.mozilla.org/es/docs/Web/HTML/Element/q">utiliza en para citas breves que no requieren
+            saltos de párrafo.</q>
+    </p>
+
+
+    <div class="fondo" style="width: 500px; height: 200px; padding: 20px">
+        <div class="resaltar">Texto 1</div>
+        <div style="background-color: blue; margin-top: 10px">Texto 2</div>
+    </div>
+
 
 </body>
 

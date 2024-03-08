@@ -8,3 +8,46 @@ h1 {
     background-color: aqua;
 
 }
+
+
+.fondo {
+    background-color: silver;
+}
+
+.espaciado td {
+    padding: 5px;
+}
+
+.resaltar {
+    background-color: red;
+}
+
+.resaltar:hover {
+    background-color: lime;
+}
+
+.menu {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: yellow;
+}
+
+
+.menu li {
+    list-style-type: none;
+    background-color: silver;
+    width: 100px;
+    height: 35px;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: lime;
+}
