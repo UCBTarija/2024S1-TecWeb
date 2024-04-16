@@ -1,5 +1,7 @@
 <?php
 
+use App\Application;
+
 include '../src/Application.php';
 
 $a = new Application();
