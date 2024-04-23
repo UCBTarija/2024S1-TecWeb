@@ -1,15 +1,6 @@
 <?php
 
-namespace App;
-
-class Application
-{
-    public function saludar()
-    {
-        //$titulo = 'Titulo del Sitio';        
-        //include 'views/main.php';
-
-        $arreglo = [];
+$arreglo = [];
         $arreglo[] = "hola";
         $arreglo[] = "Juan";
         $arreglo[] = 10;
@@ -51,9 +42,8 @@ class Application
         ];
         echo '<pre>';
 
-        echo json_encode($persona);
+        
+        //echo json_encode($persona);
 
         print_r($persona);
         exit();
-    }
-}
