@@ -1,5 +1,6 @@
 <?php
 
+namespace App;
 
 class Demo
 {
@@ -9,10 +10,13 @@ class Demo
     }
 }
 
+$a = new Demo();
+$a->suma(10,20);
+
 print_r(Demo::class);
 echo '<br>';
 
-$nombreClase = 'Demo';
+$nombreClase = 'App\Demo';
 $nombreFuncion = 'suma';
 
 $instanciaClase = new $nombreClase();
