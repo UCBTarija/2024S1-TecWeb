@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Framework\Controller;
+use Symfony\Component\Uid\Uuid;
 
 class ProductoController extends Controller{
 
@@ -23,7 +24,8 @@ class ProductoController extends Controller{
     }
 
     public function guardar(){
-        echo 'aaaa';
+        $uuid = Uuid::v1();
+        print_r($uuid->generate());
     }
 
 }

@@ -1,0 +1,13 @@
+{
+    "name": "ronal/05-framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.0",
+        "symfony/uid": "*"
+    }
+}
