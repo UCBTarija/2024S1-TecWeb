@@ -1,6 +1,6 @@
 # ALMACEN
 
-## 1. Creción de tabla y datos de prueba en postgres
+## 1. Creación de tablas y datos de prueba en postgres
 
 	CREATE TABLE producto (
 		id serial not null primary key, --esto crea la secuencia 'producto_id_seq'
@@ -16,6 +16,7 @@
 	('PROD04','COCA COLA 2 LTS', 10);
 
 ## 2. Inicialización:
+
   a) cargar las librerías en vendor, para eso ejecutar desde la raíz de la aplicación:
     - Si se tiene el composer instalado: compser update
     - Si se tieen el archivo composer.phar: php composer.phar update
@@ -30,6 +31,7 @@
 	DB_PASSWORD=xxxx
 
 ## 3. Ejecución
+
 Ejecutar el servidor escribiendo en la raíz de la aplicación:
 
 	php artisan serve
