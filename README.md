@@ -21,13 +21,15 @@
     - Si se tieen el archivo composer.phar: php composer.phar update
   b) configurar la base de datos:
     - configurar el archivo .env con los datos de acceso a la Bd. Ejemplo:
-      DB_CONNECTION=pgsql
-      DB_HOST=127.0.0.1
-      DB_PORT=5432
-      DB_DATABASE=ucb_almacen
-      DB_USERNAME=ucb
-      DB_PASSWORD=xxxx
+    
+	DB_CONNECTION=pgsql
+	DB_HOST=127.0.0.1
+	DB_PORT=5432
+	DB_DATABASE=ucb_almacen
+	DB_USERNAME=ucb
+	DB_PASSWORD=xxxx
 
 ## 3. Ejecución
 Ejecutar el servidor escribiendo en la raíz de la aplicación:
-  php artisan serve
+
+	php artisan serve
